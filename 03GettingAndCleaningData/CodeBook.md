@@ -17,7 +17,7 @@ This code book explains the data columns presented in the "result.txt" file.
     6 LAYING
 
 3-68 Average measurement-stat(-axis)
-  where 'measurement' is a feature from , 'stat' is either 'mean' or 'std', and 'axis' (optional) is among 'X', 'Y' or 'Z'.
+  where 'measurement' is a feature from the 'features_info.txt' file (e.g. tBodyAcc, tBodyAccMag); 'stat' is either 'mean' or 'std'; 'axis' (optional) is among 'X', 'Y' or 'Z'.
   Each of these new features are calculated by taking the average of each mean/std measurement per activity per subject. There are   66 mean/std measurements so there are 66 such 'average' features.
   
 Note that there are 180 combinations of (Subject ID, activity) because of 30 subjects and 6 activities.
