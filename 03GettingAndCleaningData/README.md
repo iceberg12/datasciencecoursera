@@ -1,4 +1,5 @@
 ## READ ME
+Assume that the run_analysis.R file is put under the same folder containing 'train' and 'test' folders and other necessary files.
 
 1. Read data from train and test sets and combine them
 I read information from subject_train, y_train and X_train and combine them into a dataframe in this order using 'cbind()'
