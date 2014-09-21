@@ -26,7 +26,8 @@ levels(data1[,2]) <- c("WALKING","WALKING_UPSTAIRS",
                        "STANDING","LAYING")
 
 # 4. Rename variables in the final data.frame
-names(data1) <- c("Subject", "Activity", feature_names$V2[fil])
+names <- paste("Average", sub("\\(\\)","", feature_names$V2[fil]))
+names(data1) <- c("Subject", "Activity", names)
 
 # 5. Take the average of all variables
 # based on indices Subject and Activity
